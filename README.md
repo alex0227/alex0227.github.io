@@ -1,5 +1,4 @@
-# hello-word
-starting diary
+# starting diary
 
 2017.8.31开启我的系统学习生涯
 
