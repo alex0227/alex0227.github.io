@@ -1,3 +1,11 @@
+---
+layout: post
+title: vmware坑
+categories: ##
+description: VMware遇到的问题。
+keywords: VMware，不支持64位linux
+---
+
 win10安装好vmware后开始安装64位linux系统
 选择系统类型时候出现本机器不支持64位，需要在电脑程序与功能中，启动与关闭Windows功能，关闭电脑的hyper-v（即把前面的复选框对号去掉）
 再次创建虚拟机的时候提示不支持了
