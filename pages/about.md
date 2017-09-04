@@ -1,7 +1,7 @@
 ---
 layout: page
 title: About
-description: 字符编织艺术
+description: 不是没有风景，只是高度不够
 keywords: feng chen, 晨枫
 comments: true
 menu: 关于
