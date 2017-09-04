@@ -1,4 +1,12 @@
-# Linux 学习记录（以此激励自己持续学习）
+---
+layout: post
+title: Linux 学习记录
+categories: ##
+description: ##
+keywords: 学习计划
+---
+
+### Linux 学习记录（以此激励自己持续学习）
 
 2017.8.31开启我的系统学习生涯
 
