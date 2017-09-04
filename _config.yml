@@ -2,10 +2,10 @@
 #   Main Configs   #
 # ---------------- #
 baseurl:
-url: http://alex0227.github.io
+url: https://alex0227.github.io
 date_format: "ordinal"
 title: 疯人疯话
-subtitle: "打码改变人生"
+subtitle: "字符艺术编织"
 description: "linux 学习之路"
 keywords: 晨枫，alex0227，alex0227，alex0227
 favicon: /favicon.ico

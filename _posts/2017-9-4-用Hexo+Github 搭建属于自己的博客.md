@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 青蛙跳台阶的问题——Fibonacci
-categories: Algorithm
+title: 用Hexo+Github 搭建属于自己的博客
+categories: Hexo+Github
 description: 使用 Fibonacci 来解决青蛙跳台阶的问题。
-keywords: 算法，Fibonacci
+keywords: Hexo+Github
 ---
 
 ### 用Hexo+Github 搭建属于自己的博客
