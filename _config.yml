@@ -7,7 +7,7 @@ date_format: "ordinal"
 title: 疯人疯话
 subtitle: "打码改变人生"
 description: "linux 学习之路"
-keywords: alex0227
+keywords:晨枫，alex0227，alex0227，alex0227
 favicon: /favicon.ico
 timezone: Asia/Shanghai
 encoding: "utf-8"
@@ -17,7 +17,7 @@ side_bar_repo_limit: 5
 #      Author      #
 # ---------------- #
 author: alex0227
-organization:
+organization:darts
 organization_url:
 github_username: alex0227
 location: nanjing, China
@@ -79,7 +79,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: alex0227.github.io 
+repository: alex0227/alex0227.github.io 
 
 # ---------------- #
 #      Comments    #
@@ -99,10 +99,10 @@ comments_provider: gitment
  #       client_id: d2e1cbbd298958076462
  #       client_secret: b42a4178e5fd4a7cf63189ef4b1453b05c375709
 ## 在使用其它评论组件时可点击显示 Disqus
-#lazy_load_disqus : true
-#
-## ---------------- #
-##    Analytics     #
-## ---------------- #
-#google:
-#    analytics_id: UA-80669434-1
+lazy_load_disqus : true
+
+# ---------------- #
+#    Analytics     #
+# ---------------- #
+google:
+    analytics_id: UA-80669434-1
