@@ -1,4 +1,3 @@
-
 ---
 layout: post
 title: Redhat Linux重设root密码
