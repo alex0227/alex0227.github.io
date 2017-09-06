@@ -1,23 +1,24 @@
 
 ---
 layout: post
-title: Redhat LinuxÖØÉèrootÃÜÂë
+title: Redhat Linuxé‡è®¾rootå¯†ç 
 categories: Redhat
-description: Redhat LinuxÖØÉèrootÃÜÂë
-keywords: rootÃÜÂë
+description: Redhat Linuxé‡è®¾rootå¯†ç 
+keywords: rootå¯†ç 
 ---
 
 
-1¡¢¿ª»ú£¬µ±½øÈëÏµÍ³Ñ¡Ôñ½çÃæÊ±ºò°´e¼ü
-2¡¢ÔÚLinux16ÄÇĞĞÄ©Î²¼ÓÉÏrd,break£¬°´ctrl+x½øÈë¾ÈÔ®Ä£Ê½
-3¡¢ÊäÈë
+1ã€å¼€æœºï¼Œå½“è¿›å…¥ç³»ç»Ÿé€‰æ‹©ç•Œé¢æ—¶å€™æŒ‰eé”®
+2ã€åœ¨Linux16é‚£è¡Œæœ«å°¾åŠ ä¸Šrd,breakï¼ŒæŒ‰ctrl+xè¿›å…¥æ•‘æ´æ¨¡å¼
+3ã€è¾“å…¥
+
 ```
 mount -o remount,rw /sysroot
 chroot /sysroot
-echo "ÒªÉèÖÃµÄÃÜÂë" | passwd --stdin root
+echo "è¦è®¾ç½®çš„å¯†ç " | passwd --stdin root
 touch /.autorelabel
 exit
 reboot
 ```
 
-4¡¢µÈ´ıÏµÍ³ÖØÆô
+4ã€ç­‰å¾…ç³»ç»Ÿé‡å¯
