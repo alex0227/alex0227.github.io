@@ -6,9 +6,6 @@ description: 使用 Fibonacci 来解决青蛙跳台阶的问题。
 keywords: Hexo+Github
 ---
 
-### 用Hexo+Github 搭建属于自己的博客
-
-
 大概可以分为以下几个步骤
 
 搭建环境准备（包括node.js和git环境，gitHub账户的配置）
@@ -20,6 +17,8 @@ keywords: Hexo+Github
 主题Net的简单配置
 添加sitemap和feed插件
 添加404 公益页面
+
+
 搭建环境准备
 大概可以分为以下三步 
 - Node.js 的安装和准备 
