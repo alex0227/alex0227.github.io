@@ -1,4 +1,15 @@
+---
+layout: post
+title: html中转义字符（适用 于markdown ）
+categories: html中转义字符
+description: html中转义字符（适用于markdown ）
+keywords: html中转义字符，markdown转义字符
+---
+
+
 ### html中转义字符（适用于markdown ）
+
+一般用'\'能够实现转义，特殊情况下可以用下列字符实现。
 
 ```
 字符 实体名称 实体数字 描述 
