@@ -76,35 +76,60 @@ cmd+shift+d|合并垂直切分的窗口
 
 ## vim快捷键
 
-  1. 移动光标位置：
-      hjkl    
-      shift+4($):末尾    
-      g+下划线:末尾       0:开头   
-      shift+6(^):开头            w:下一个单词(仅包含字母)     W:下一个单词(包含特殊符号)     b:上一个单词    B:上一个单词  e:下一个单词末尾  E:下一个单词末尾
-      ctrl+f:forward  page    ctrl+b:backward page   ctrl+d:forward 1/2 page    ctrl+u:backward 1/2page    ctrl+e:next line move   ctrl+y:previous line move
-      G:文末    gg:文头    nG:line n     H:head line of page   M:middle line of page     
+1. 移动光标位置：  
+    hjkl    
+    shift+4($):末尾    
+    g+下划线:末尾       
+    0:开头   
+    shift+6(^):开头            
+    w:下一个单词(仅包含字母)     
+    W:下一个单词(包含特殊符号)     
+    b:上一个单词    
+    B:上一个单词  
+    e:下一个单词末尾  
+    E:下一个单词末尾
+    ctrl+f:forward  page    ctrl+b:backward page   ctrl+d:forward 1/2 page    ctrl+u:backward 1/2page    ctrl+e:next line move   ctrl+y:previous line move
+    G:文末    
+    gg:文头    
+    nG:line n   
+    H:head line of page   
+    M:middle line of page
 
-  2. 插入模式切换:
-      esc:进入命令模式      i:当前位置插入     a:下一个字符插入       o:下一行插入      O:上一行插入       cw:删除当前位置下一个单词插入       x:删除当前字符
+2. 插入模式切换:  
+      esc:进入命令模式      
+      i:当前位置插入     
+      a:下一个字符插入       
+      o:下一行插入      
+      O:上一行插入       
+      cw:删除当前位置下一个单词插入       
+      x:删除当前字符
 
-  3. 复制粘贴：
-     dd:删除一行  p:粘贴    yy:拷贝一行   ndd nyy:删除复制n行
-       . : repeat previous cmd
-       100idesu:插入100次desu  . :再次复制100次  
+3. 复制粘贴：  
+     dd:删除一行  
+     p:粘贴    
+     yy:拷贝一行   
+     ndd nyy:删除复制n行
+     . : repeat previous cmd
+     100idesu:插入100次desu  
+     . :再次复制100次  
 
-   4. 查找,替换:
-       /pattern  前向查找    ?pattern 后向查找     n:next      shift+n:反向的next
-       s/pattern1/pattern2:替换       s/pattern1/pattern2/g:替换当前行所有
-       1,$s/pattern1/pattern2/g:替换从第一行开始所有
-       编程实际相关:  
-       "*查找当前单词的下一次出现  #查找当前单词的上一次出现"
+4. 查找,替换:  
+     /pattern  前向查找    
+     ?pattern 后向查找     
+     n:next      shift+n:反向的next
+     s/pattern1/pattern2:替换       
+     s/pattern1/pattern2/g:替换当前行所有
+     1,$s/pattern1/pattern2/g:替换从第一行开始所有
+     编程实际相关:  
+     \*查找当前单词的下一次出现  #查找当前单词的上一次出现
 
-   5. 块操作:
-       ctrl+v:开始选择要操作的块
-       I 然后   ＃插入多行注释，
-       d:删除   s:删除后替换  
+5. 块操作:  
+     ctrl+v:开始选择要操作的块
+     I 然后   ＃插入多行注释，
+     d:删除   s:删除后替换  
 
-    6. 分屏操作:
-      split:上下分屏    vsplit:左右分屏
+6. 分屏操作:  
+      split:上下分屏    
+      vsplit:左右分屏
       ctrl+w+hjkl:切换分屏到不同方向
       e:打开文件
