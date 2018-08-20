@@ -17,7 +17,6 @@ keywords: Hexo+Github
 添加sitemap和feed插件
 添加404 公益页面
 
-
 搭建环境准备
 大概可以分为以下三步
 - Node.js 的安装和准备
