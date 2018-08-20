@@ -7,7 +7,6 @@ keywords: Hexo+Github
 ---
 
 大概可以分为以下几个步骤：
-
 搭建环境准备（包括node.js和git环境，gitHub账户的配置）
 安装Hexo
 配置Hexo
