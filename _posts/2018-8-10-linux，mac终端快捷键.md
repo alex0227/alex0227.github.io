@@ -7,7 +7,7 @@
 
 ## linux/mac输入terminal命令的快捷键
 
-##Linux terminal快捷键
+## Linux terminal快捷键
 
 快捷键| 功能
 :---:|
