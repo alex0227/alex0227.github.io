@@ -2,6 +2,7 @@
  layout: post
  title: linux/mac输入terminal命令的快捷键
  categories: terminal
+ description: linux/mac输入terminal命令的快捷键
  keywords: 快捷键，技巧
 ---
 
@@ -58,7 +59,6 @@ Alt+V |打开 “查看” 菜单（view）
 Alt+S |打开 “搜索” 菜单（search）
 Alt+T |打开 “终端” 菜单（terminal）
 Alt+H |打开 “帮助” 菜单（help）
-
 另外一些小技巧包括：在终端窗口命令提示符下，连续按两次 Tab 键、或者连续按三次 Esc 键、或者按 Ctrl+I 组合键，将显示所有的命令及工具名称。Application 键即位置在键盘上右 Ctrl 键左边的那个键，作用相当于单击鼠标右键。
 
 ## mac系统打开/关闭/切换终端 常用快捷键
