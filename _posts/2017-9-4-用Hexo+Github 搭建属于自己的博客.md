@@ -6,6 +6,8 @@ description: 使用 Fibonacci 来解决青蛙跳台阶的问题。
 keywords: Hexo+Github
 ---
 
+网络文章，仅供参考
+
 大概可以分为以下几个步骤：
 搭建环境准备（包括node.js和git环境，gitHub账户的配置）
 安装Hexo
@@ -26,14 +28,12 @@ keywords: Hexo+Github
 下载node.js安装文件：
 Windows Installer 32-bit
 Windows Installer 64-bit
-根据自己的Windows版本选择相应的安装文件，要是不知道，就安装32-bit的吧- -。 如图所示：
-
-保持默认设置即可，一路Next，安装很快就结束了。 然后我们检查一下是不是要求的组件都安装好了，同时按下Win和R，打开运行窗口：
-Windows的运行界面
-
-在新打开的窗口中输入cmd，敲击回车，打开命令行界面。（下文将直接用打开命令行来表示以上操作，记住哦~） 在打开的命令行界面中，输入
+根据自己的Windows版本选择相应的安装文件，要是不知道，就安装32-bit的吧- -。
+保持默认设置即可，一路Next，安装很快就结束了。 然后我们检查一下是不是要求的组件都安装好了，同时按下Win和R，打开运行窗口：在新打开的窗口中输入cmd，敲击回车，打开命令行界面。（下文将直接用打开命令行来表示以上操作，记住哦~） 在打开的命令行界面中，输入
+```
 node -v
 npm -v
+```
 
 如果结果如下图所示，则说明安装正确，可以进行下一步了，如果不正确，则需要回头检查自己的安装过程。
 
@@ -152,7 +152,7 @@ deploy:
 新建一篇博客，执行下面的命令：
 hexo new post "article title"
 
-这时候在我的 电脑的目录下 F:\hexo\source\ _posts 将会看到 article title.md 文件
+这时候在我的 电脑的目录下 F:\hexo\source\_posts 将会看到 article title.md 文件
 用MarDown编辑器打开就可以编辑文章了。文章编辑好之后，运行生成、部署命令：
 hexo g   // 生成
 hexo d   // 部署
@@ -392,6 +392,7 @@ GitHub Pages有提供制作404页面的指引：Custom 404 Pages
 直接在根目录下创建自己的404.html或者404.md就可以。但是自定义404页面仅对绑定顶级域名的项目才起作用，GitHub默认分配的二级域名是不起作用的，使用hexo server在本机调试也是不起作用的。
 推荐使用腾讯公益404
 我的404页面配置如下
+```
 <html>
 <head>
   <meta http-equiv="content-type" content="text/html;charset=utf-8;"/>
@@ -408,7 +409,7 @@ GitHub Pages有提供制作404页面的指引：Custom 404 Pages
 
 </body>
 </html>
-
+```
 参考博客
 Hexo主页
 史上最详细的Hexo博客搭建图文教程
