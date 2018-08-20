@@ -6,7 +6,7 @@ description: 使用 Fibonacci 来解决青蛙跳台阶的问题。
 keywords: Hexo+Github
 ---
 
-大概可以分为以下几个步骤
+大概可以分为以下几个步骤：
 
 搭建环境准备（包括node.js和git环境，gitHub账户的配置）
 安装Hexo
@@ -20,9 +20,9 @@ keywords: Hexo+Github
 
 
 搭建环境准备
-大概可以分为以下三步 
-- Node.js 的安装和准备 
-- Git的安装和准备 
+大概可以分为以下三步
+- Node.js 的安装和准备
+- Git的安装和准备
 - gitHub账户的配置
 配置Node.js环境
 下载node.js安装文件：
@@ -50,7 +50,7 @@ Git安装界面
 和Node.js一样，大部分设置都只需要保持默认，但是出于我们操作方便考虑，建议PATH选项按照下图选择：
 Git PATH设置
 
-这是对上图的解释，不需要了解请直接跳过 Git的默认设置下，出于安全考虑，只有在Git Bash中才能进行Git的相关操作。按照上图进行的选择，将会使得Git安装程序在系统PATH中加入Git的相关路径，使得你可以在CMD界面下调用Git，不用打开Git Bash了。 
+这是对上图的解释，不需要了解请直接跳过 Git的默认设置下，出于安全考虑，只有在Git Bash中才能进行Git的相关操作。按照上图进行的选择，将会使得Git安装程序在系统PATH中加入Git的相关路径，使得你可以在CMD界面下调用Git，不用打开Git Bash了。
 一样的，我们来检查一下Git是不是安装正确了，打开命令行，输入：
 git --version
 
@@ -124,8 +124,8 @@ INFO Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.
 下面会讲解怎样将Hexo与github page 联系起来
 
 怎样将Hexo与github page 联系起来
-大概分为以下几步 
-- 配置git个人信息 
+大概分为以下几步
+- 配置git个人信息
 - 配置Deployment
 配置Git个人信息
 如果你之前已经配置好git个人信息，请跳过这一个 步骤，直接来到
@@ -170,23 +170,23 @@ npm install hexo-deployer-git --save
 如果没有执行者行命令，将会提醒
 deloyer not found:git
 2）如果出现下面这样的错误，
-Permission denied (publickey). 
-fatal: Could not read from remote repository. 
-Please make sure you have the correct access rights 
+Permission denied (publickey).
+fatal: Could not read from remote repository.
+Please make sure you have the correct access rights
 and the repository exists.
-则是因为没有设置好public key所致。 
+则是因为没有设置好public key所致。
 在本机生成public key,不懂的可以参考我的这一篇博客Git ssh 配置及使用
 
 主题推荐
 每个不同的主题会需要不同的配置，主题配置文件在主题目录下的_config.yml。有两个比较好的主题推荐给大家。
 Yilia
-Yilia 是为 hexo 2.4+制作的主题。 
+Yilia 是为 hexo 2.4+制作的主题。
 崇尚简约优雅，以及极致的性能。
 
 Yilia地址
 NexT
-我的网站就是采用这个主题，简洁美观。 
-目前Github上Star最高的Hexo主题，支持几种不同的风格。 
+我的网站就是采用这个主题，简洁美观。
+目前Github上Star最高的Hexo主题，支持几种不同的风格。
 作者提供了非常完善的配置说明。
 
 
@@ -198,8 +198,8 @@ Net主题的配置
 Hexo 安装主题的方式非常简单，只需要将主题文件拷贝至站点目录的 themes 目录下， 然后修改下配置文件即可。具体到 NexT 来说，安装步骤如下。
 下载主题
 如果你熟悉 Git， 建议你使用 克隆最新版本 的方式，之后的更新可以通过 git pull 来快速更新， 而不用再次下载压缩包替换。
-克隆最新版本 
-下载稳定版本 
+克隆最新版本
+下载稳定版本
 在终端窗口下，定位到 Hexo 站点目录下。使用 Git checkout 代码：
 cd your-hexo-site
 git clone https://github.com/iissnan/hexo-theme-next themes/next
@@ -360,7 +360,7 @@ avatar: http://example.com/avtar.
 9. 设置 作者昵称
 编辑 站点配置文件， 设置 author 为你的昵称。
 10. 站点描述
-编辑 站点配置文件， 设置 
+编辑 站点配置文件， 设置
 字段为你的站点描述。站点描述可以是你喜欢的一句签名:)
 net主题的官方文档地址
 
@@ -390,7 +390,7 @@ hexo d -g
 配完之后，就可以访问 https://gdutxiaoxu.github.io/atom.xml 和 https://gdutxiaoxu.github.io/sitemap.xml ，发现这两个文件已经成功生成了。
 
 添加404 页面
-GitHub Pages有提供制作404页面的指引：Custom 404 Pages 
+GitHub Pages有提供制作404页面的指引：Custom 404 Pages
 直接在根目录下创建自己的404.html或者404.md就可以。但是自定义404页面仅对绑定顶级域名的项目才起作用，GitHub默认分配的二级域名是不起作用的，使用hexo server在本机调试也是不起作用的。
 推荐使用腾讯公益404
 我的404页面配置如下
