@@ -4,7 +4,7 @@
 baseurl:
 url: https://alex0227.github.io
 date_format: "ordinal"
-title: 晨枫
+title: 那些年
 subtitle: "不是没有风景，只是高度不够"
 description: "linux 学习之路"
 keywords: 晨枫，晨枫alex，alex0227，alex0227
@@ -79,7 +79,7 @@ collections:
         output: true
         permalink: /wiki/:path/
 
-repository: alex0227/alex0227.github.io 
+repository: alex0227/alex0227.github.io
 
 ## ---------------- #
 ##      Comments    #

@@ -4,19 +4,17 @@ title: html中转义字符（适用 于markdown ）
 categories: html
 description: html转义字符（适用于markdown ）
 keywords: html转义字符，markdown转义字符
-
 ---
 
 
-
-html中转义字符（适用于markdown ）
+### html中转义字符（适用于markdown ）
 
 一般用‘\’能够实现转义，特殊情况下可以用下列字符实现。
 
 ```
 字符 实体名称 实体数字 描述
 
-♠ &spades; &#9824;| 黑桃
+♠ &spades; &#9824; 黑桃
 ♣ &clubs;  &#9827; 梅花
 ♥ &hearts; &#9829; 红桃，心
 ♦ &diams;  &#9830; 方块牌

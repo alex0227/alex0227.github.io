@@ -1,10 +1,10 @@
 - name: Software Engineer Keywords
   keywords:
-#      - Java
-       - C++
-#      - Python
-#      - Design Patterns
-       - c#
+      - linux
+      - C++
+      - Python
+      - Design Patterns
+      - c#
 
 #- name: Mobile Developer Keywords
 #  keywords:
