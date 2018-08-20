@@ -58,41 +58,42 @@ Alt+T |打开 “终端” 菜单（terminal）
 Alt+H |打开 “帮助” 菜单（help）
 
 另外一些小技巧包括：在终端窗口命令提示符下，连续按两次 Tab 键、或者连续按三次 Esc 键、或者按 Ctrl+I 组合键，将显示所有的命令及工具名称。Application 键即位置在键盘上右 Ctrl 键左边的那个键，作用相当于单击鼠标右键。
+
 ### mac系统打开/关闭/切换终端 常用快捷键
 快捷键| 功能
 :---:|
-      cmd+t|开一个terminal标签页    
-      cmd+shift+left|标签页切换     
-      cmd+shift+r|标签页切换
-      cmd+n|开一个新的terminal窗口  
-      cmd+left|窗口切换   
-      cmd+right|窗口切换
-      cmd+d|垂直切分当前窗口    
-      cmd+shift+d|合并垂直切分的窗口
+cmd+t|开一个terminal标签页    
+cmd+shift+left|标签页切换     
+cmd+shift+r|标签页切换
+cmd+n|开一个新的terminal窗口  
+cmd+left|窗口切换   
+cmd+right|窗口切换
+cmd+d|垂直切分当前窗口    
+cmd+shift+d|合并垂直切分的窗口
 2.vim快捷键
-      1. 移动光标位置：
-          hjkl    
-            shift+4($):末尾    
-            g+下划线:末尾       0:开头   
-            shift+6(^):开头            w:下一个单词(仅包含字母)     W:下一个单词(包含特殊符号)     b:上一个单词    B:上一个单词  e:下一个单词末尾  E:下一个单词末尾
-            ctrl+f:forward  page    ctrl+b:backward page   ctrl+d:forward 1/2 page    ctrl+u:backward 1/2page    ctrl+e:next line move   ctrl+y:previous line move
-            G:文末    gg:文头    nG:line n     H:head line of page   M:middle line of page    
-      2. 插入模式切换:
-            esc:进入命令模式      i:当前位置插入     a:下一个字符插入       o:下一行插入      O:上一行插入       cw:删除当前位置下一个单词插入       x:删除当前字符
-      3. 复制粘贴：
-             dd:删除一行  p:粘贴    yy:拷贝一行   ndd nyy:删除复制n行
-             . : repeat previous cmd
-             100idesu:插入100次desu  . :再次复制100次    
-       4. 查找,替换:
-             /pattern  前向查找    ?pattern 后向查找     n:next      shift+n:反向的next
-             s/pattern1/pattern2:替换       s/pattern1/pattern2/g:替换当前行所有
-             1,$s/pattern1/pattern2/g:替换从第一行开始所有
-             编程实际相关:  *查找当前单词的下一次出现  #查找当前单词的上一次出现
-      5. 块操作:
-             ctrl+v:开始选择要操作的块
-             I 然后   ＃插入多行注释，
-             d:删除   s:删除后替换  
-      6. 分屏操作:
-            split:上下分屏    vsplit:左右分屏
-            ctrl+w+hjkl:切换分屏到不同方向
-            e:打开文件
+  1. 移动光标位置：
+      hjkl    
+      shift+4($):末尾    
+      g+下划线:末尾       0:开头   
+      shift+6(^):开头            w:下一个单词(仅包含字母)     W:下一个单词(包含特殊符号)     b:上一个单词    B:上一个单词  e:下一个单词末尾  E:下一个单词末尾
+      ctrl+f:forward  page    ctrl+b:backward page   ctrl+d:forward 1/2 page    ctrl+u:backward 1/2page    ctrl+e:next line move   ctrl+y:previous line move
+      G:文末    gg:文头    nG:line n     H:head line of page   M:middle line of page    
+  2. 插入模式切换:
+      esc:进入命令模式      i:当前位置插入     a:下一个字符插入       o:下一行插入      O:上一行插入       cw:删除当前位置下一个单词插入       x:删除当前字符
+  3. 复制粘贴：
+     dd:删除一行  p:粘贴    yy:拷贝一行   ndd nyy:删除复制n行
+       . : repeat previous cmd
+       100idesu:插入100次desu  . :再次复制100次    
+   4. 查找,替换:
+       /pattern  前向查找    ?pattern 后向查找     n:next      shift+n:反向的next
+       s/pattern1/pattern2:替换       s/pattern1/pattern2/g:替换当前行所有
+       1,$s/pattern1/pattern2/g:替换从第一行开始所有
+       编程实际相关:  *查找当前单词的下一次出现  #查找当前单词的上一次出现
+   5. 块操作:
+       ctrl+v:开始选择要操作的块
+       I 然后   ＃插入多行注释，
+       d:删除   s:删除后替换  
+    6. 分屏操作:
+      split:上下分屏    vsplit:左右分屏
+      ctrl+w+hjkl:切换分屏到不同方向
+      e:打开文件
