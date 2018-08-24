@@ -24,29 +24,34 @@ int main(void)
 ```
 gcc test.c -o test
 ```
-实质上，上述编译过程是分为四个阶段进行的，即预处理(也称预编译，Preprocessing)、编译(Compilation)、汇编 (Assembly)和连接(Linking)。   
+实质上，上述编译过程是分为四个阶段进行的，即预处理(也称预编译，Preprocessing)、编译(Compilation)、汇编 (Assembly)和连接(Linking)。
+
 2.1 预处理  
 ```
 gcc -E test.c -o test.i 或 gcc -E test.c
 ```
-可以输出test.i文件中存放着test.c经预处理之后的代码。打开test.i文件，看一看，就明白了。后面那条指令，是直接在命令行窗口中输出预处理后的代码。 gcc的-E选项，可以让编译器在预处理后停止，并输出预处理结果。在本例中，预处理结果就是将stdio.h 文件中的内容插入到test.c中了。  
+可以输出test.i文件中存放着test.c经预处理之后的代码。打开test.i文件，看一看，就明白了。后面那条指令，是直接在命令行窗口中输出预处理后的代码。 gcc的-E选项，可以让编译器在预处理后停止，并输出预处理结果。在本例中，预处理结果就是将stdio.h 文件中的内容插入到test.c中了。
+
 2.2 编译为汇编代码(Compilation)  
 预处理之后，可直接对生成的test.i文件编译，生成汇编代码：
 ```
 gcc -S test.i -o test.s
 ```
 gcc的-S选项，表示在程序编译期间，在生成汇编代码后，停止，-o输出汇编代码文件。  
+
 2.3 汇编(Assembly)  
 对于上一小节中生成的汇编代码文件test.s，gas汇编器负责将其编译为目标文件，如下：  
 ```
 gcc -c test.s -o test.o
 ```
+
 2.4 连接(Linking)  
 gcc连接器是gas提供的，负责将程序的目标文件与所需的所有附加的目标文件连接起来，最终生成可执行文件。附加的目标文件包括静态连接库和动态连接库。 对于上一小节中生成的test.o，将其与Ｃ标准输入输出库进行连接，最终生成程序test  
 ```
 gcc test.o -o test  
 ```
 在命令行窗口中，执行./test, 让它说HelloWorld吧！  
+
 3. 多个程序文件的编译
 通常整个程序是由多个源文件组成的，相应地也就形成了多个编译单元，使用GCC能够很好地管理这些编译单元。假设有一个由test1.c和 test2.c两个源文件组成的程序，为了对它们进行编译，并最终生成可执行程序test，可以使用下面这条命令：
 gcc test1.c test2.c -o test
@@ -56,6 +61,7 @@ gcc -c test1.c -o test1.o
 gcc -c test2.c -o test2.o
 gcc test1.o test2.o -o test
 ```
+
 4. 检错
 ```
 gcc -pedantic illcode.c -o illcode
@@ -68,9 +74,11 @@ GCC给出的警告信息虽然从严格意义上说不能算作错误，但却�
 ```
 gcc -Werror test.c -o test
 ```
+
 5. 库文件连接
 开发软件时，完全不使用第三方函数库的情况是比较少见的，通常来讲都需要借助许多函数库的支持才能够完成相应的功能。从程序员的角度看，函数库实际上就是一些头文件（.h）和库文件（so、或lib、dll）的集合。虽然Linux下的大多数函数都默认将头文件放到/usr/include/目录下，而库文件则放到/usr/lib/目录下；Windows所使用的库文件主要放在Visual Stido的目录下的include和lib，以及系统文件夹下。但也有的时候，我们要用的库不再这些目录下，所以GCC在编译时必须用自己的办法来查找所需要的头文件和库文件。   
 例如我们的程序test.c是在linux上使用c连接mysql，这个时候我们需要去mysql官网下载MySQL Connectors的C库，下载下来解压之后，有一个include文件夹，里面包含mysql connectors的头文件，还有一个lib文件夹，里面包含二进制so文件libmysqlclient.so 其中inclulde文件夹的路径是 /usr/dev/mysql/include ,lib文件夹是   /usr/dev/mysql/lib  
+
 5.1 编译成可执行文件   
 首先我们要进行编译test.c为目标文件，这个时候需要执行
 ```
@@ -82,6 +90,7 @@ gcc –c –I /usr/dev/mysql/include test.c –o test.o
 gcc –L /usr/dev/mysql/lib –lmysqlclient test.o –o test
 ```
 Linux下的库文件分为两大类分别是动态链接库（通常以.so结尾）和静态链接库（通常以.a结尾），二者的区别仅在于程序执行时所需的代码是在运行时动态加载的，还是在编译时静态加载的。
+
 5.3 强制链接时使用静态链接库  
 默认情况下， GCC在链接时优先使用动态链接库，只有当动态链接库不存在时才考虑使用静态链接库，如果需要的话可以在编译时加上-static选项，强制使用静态链接库。 在/usr/dev/mysql/lib目录下有链接时所需要的库文件libmysqlclient.so和libmysqlclient.a，为了让GCC在链接时只用到静态链接库，可以使用下面的命令:
 ```
