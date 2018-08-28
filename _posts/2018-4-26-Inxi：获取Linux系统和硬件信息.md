@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Inxi：获取Linux系统和硬件信息
-categories: Inxi：获取Linux系统和硬件信息
+categories: Inxi  Linux
 description: Inxi：获取Linux系统和硬件信息
 keywords: Inxi Linux
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Nginx/Apache禁止php脚本
-categories: Nginx/Apache禁止php脚本
+categories: Nginx Apache 禁止php脚本
 description: Nginx/Apache禁止php脚本
 keywords: Nginx Apache 禁止php脚本 Linux
 ---

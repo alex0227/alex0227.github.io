@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linux - Python 脚本编程入门（一）
-categories: Linux - Python 脚本编程入门（一）
+categories: Linux  Python 脚本编程
 description: Linux - Python 脚本编程入门（一）
 keywords: Linux  Python 脚本编程
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: smem – Linux 内存监视软件
-categories: smem – Linux 内存监视软件
+categories: smem  Linux 内存监视
 description: smem – Linux 内存监视软件
 keywords: smem   Linux 内存监视
 ---

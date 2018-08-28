@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ownCloud 的六大神奇用法
-categories: ownCloud 的六大神奇用法
+categories: ownCloud
 description: ownCloud 的六大神奇用法
 keywords: ownCloud
 ---

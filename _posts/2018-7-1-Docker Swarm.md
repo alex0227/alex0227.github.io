@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Docker Swarm 让你事半功倍
-categories: Docker Swarm 让你事半功倍
+categories: Docker Swarm  
 description: Docker Swarm 让你事半功倍
 keywords: Docker Swarm
 ---

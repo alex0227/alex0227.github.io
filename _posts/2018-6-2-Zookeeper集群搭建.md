@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Zookeeper集群搭建
-categories: Zookeeper集群搭建
+categories: Zookeeper 集群  
 description: Zookeeper集群搭建
 keywords: linux Zookeeper 集群搭建
 ---

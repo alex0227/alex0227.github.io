@@ -1,7 +1,7 @@
 ---
 layout: post
 title: html中转义字符（适用 于markdown ）
-categories: html
+categories: html markdown 转义字符
 description: html转义字符（适用于markdown ）
 keywords: html markdown 转义字符
 ---

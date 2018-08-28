@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 在Docker和Kubernetes上运行MongoDB微服务
-categories: 在Docker和Kubernetes上运行MongoDB微服务
+categories:  Docker Kubernetes MongoDB
 description: 在Docker和Kubernetes上运行MongoDB微服务
 keywords: Docker Kubernetes MongoDB
 ---

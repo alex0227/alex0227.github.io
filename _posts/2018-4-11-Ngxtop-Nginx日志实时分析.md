@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Ngxtop-Nginx日志实时分析
-categories: Ngxtop-Nginx日志实时分析
+categories: Ngxtop Nginx 日志分析
 description: Ngxtop-Nginx日志实时分析
 keywords: Ngxtop Nginx 日志 pip
 ---

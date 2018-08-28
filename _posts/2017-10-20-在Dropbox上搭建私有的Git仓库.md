@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 在Dropbox上搭建私有的Git仓库的教程
-categories: 在Dropbox上搭建私有的Git仓库的教程
+categories: Dropbox Git
 description: 在Dropbox上搭建私有的Git仓库的教程
 keywords: Dropbox Git
 ---

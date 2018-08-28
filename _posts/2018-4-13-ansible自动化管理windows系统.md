@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ansible自动化管理windows系统
-categories: ansible自动化管理windows系统
+categories: ansible  windows
 description: ansible自动化管理windows系统
 keywords: ansible
 ---

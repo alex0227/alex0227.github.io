@@ -1,7 +1,7 @@
 ---
 layout: post
 title: awk读取标准输入（STDIN)
-categories: awk读取标准输入（STDIN)
+categories: awk
 description: awk读取标准输入（STDIN)
 keywords: awk Linux STDIN
 ---

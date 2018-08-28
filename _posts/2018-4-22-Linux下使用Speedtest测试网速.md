@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linux下使用Speedtest测试网速
-categories: Linux下使用Speedtest测试网速
+categories: Linux Speedtest 测试网速
 description: Linux下使用Speedtest测试网速
 keywords: Linux Speedtest 测试 网速
 ---

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: linux LVM
-categories: linux
+categories: linux  redhat LVM
 description: linux LVM
 keywords: redhat LVM linux
 ---

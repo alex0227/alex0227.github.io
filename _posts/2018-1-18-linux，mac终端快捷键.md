@@ -1,7 +1,7 @@
 ---
  layout: post
  title: linux/mac输入terminal命令的快捷键
- categories: terminal
+ categories: terminal 快捷键 命令
  description: linux/mac输入terminal命令的快捷键
  keywords: 快捷键 技巧
 ---

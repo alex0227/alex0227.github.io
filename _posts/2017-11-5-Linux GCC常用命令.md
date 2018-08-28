@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linux GCC常用命令
-categories: Linux GCC常用命令
+categories: Linux GCC 命令
 description: Linux GCC常用命令
 keywords: Linux GCC 命令
 ---

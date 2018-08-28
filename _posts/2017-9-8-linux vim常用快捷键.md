@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Linux vim快捷键
-categories: Linux
+categories: Linux vim
 description: Linux vim快捷键
 keywords: Linux 终端 快捷键
 ---

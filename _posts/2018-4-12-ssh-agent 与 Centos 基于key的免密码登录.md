@@ -1,7 +1,7 @@
 ---
 layout: post
 title: ssh-agent 与 Centos 基于key的免密码登录
-categories: ssh-agent 与 Centos 基于key的免密码登录
+categories: ssh-agent   Centos 免密码登录
 description: ssh-agent 与 Centos 基于key的免密码登录
 keywords: ssh-agent Centos
 ---

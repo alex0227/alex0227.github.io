@@ -1,7 +1,7 @@
 ---
 layout: post
 title: 基于Linux命令行KVM虚拟机的安装配置与基本使用
-categories: 基于Linux命令行KVM虚拟机的安装配置与基本使用
+categories:  Linux  KVM  
 description: 基于Linux命令行KVM虚拟机的安装配置与基本使用
 keywords: Linux KVM虚拟机 安装配置 基本使用
 ---

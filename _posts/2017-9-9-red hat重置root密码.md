@@ -1,7 +1,7 @@
 ---
 layout: post
 title: redhat重置root密码
-categories: redhat
+categories: redhat root
 description: redhat重置root密码
 keywords: root 密码 linux
 ---
