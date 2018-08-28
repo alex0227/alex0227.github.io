@@ -3,7 +3,7 @@ layout: post
 title: Nginx/Apache禁止php脚本
 categories: Nginx/Apache禁止php脚本
 description: Nginx/Apache禁止php脚本
-keywords: Nginx/Apache 禁止php脚本 Linux
+keywords: Nginx Apache 禁止php脚本 Linux
 ---
 
 网站程序的上传目录通常是不需要PHP执行解释权限，通过限制目录的PHP执行权限可以提网站的安全性，减少被攻击的机率。

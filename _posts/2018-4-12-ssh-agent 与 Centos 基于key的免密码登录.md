@@ -3,7 +3,7 @@ layout: post
 title: ssh-agent 与 Centos 基于key的免密码登录
 categories: ssh-agent 与 Centos 基于key的免密码登录
 description: ssh-agent 与 Centos 基于key的免密码登录
-keywords: ssh-agent Centos 基于key的免密码登录
+keywords: ssh-agent Centos
 ---
 
 SSH 为 Secure Shell 的缩写，由 IETF 的网络小组（Network Working Group）所制定；SSH 为建立在应用层基础上的安全协议。SSH是目前较可靠，专为远程登录会话和其他网络服务提供安全性的协议。利用 SSH 协议可以有效防止远程管理过程中的信息泄露问题。

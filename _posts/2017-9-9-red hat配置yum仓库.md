@@ -3,7 +3,7 @@ layout: post
 title: redhat配置yum仓库
 categories: redhat
 description: redhat配置yum仓库
-keywords: yum,redhat,linux
+keywords: yum redhat linux
 ---
 
 

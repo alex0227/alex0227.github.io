@@ -3,7 +3,7 @@ layout: post
 title: Linux下使用Speedtest测试网速
 categories: Linux下使用Speedtest测试网速
 description: Linux下使用Speedtest测试网速
-keywords: Linux,Speedtest,测试网速
+keywords: Linux Speedtest 测试 网速
 ---
 
 Speedtest是用来测试网络性能的开源软件，在Linux下面安装Speedtest可以用来测试网络出口的上传和下载速度，帮助排查网络方面导致的故障。

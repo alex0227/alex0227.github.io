@@ -3,7 +3,7 @@ layout: post
 title: Zookeeper集群搭建
 categories: Zookeeper集群搭建
 description: Zookeeper集群搭建
-keywords: linux,Zookeeper集群搭建
+keywords: linux Zookeeper 集群搭建
 ---
 
 codis集群缓存解决方案（codis：国内豌豆荚开发的redis集群解决方案，已开源，github地址：https://github.com/CodisLabs/codis

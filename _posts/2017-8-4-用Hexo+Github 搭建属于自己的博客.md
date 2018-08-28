@@ -3,7 +3,7 @@ layout: post
 title: 用Hexo+Github 搭建属于自己的博客
 categories: Hexo+Github
 description: 使用 Fibonacci 来解决青蛙跳台阶的问题。
-keywords: Hexo+Github
+keywords: Hexo Github
 ---
 
 网络文章，仅供参考

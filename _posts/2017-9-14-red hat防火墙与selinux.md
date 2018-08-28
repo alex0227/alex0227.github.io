@@ -3,7 +3,7 @@ layout: post
 title: redhat设置防火墙，selinux
 categories: redhat
 description: redhat设置防火墙，selinux
-keywords: redhat，防火墙，selinux
+keywords: redhat 防火墙 selinux
 ---
 
 

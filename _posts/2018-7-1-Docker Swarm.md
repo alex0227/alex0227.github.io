@@ -3,11 +3,11 @@ layout: post
 title: Docker Swarm 让你事半功倍
 categories: Docker Swarm 让你事半功倍
 description: Docker Swarm 让你事半功倍
-keywords: Docker,Swarm
+keywords: Docker Swarm
 ---
 
 
-2016 年 DockerCon 上展示的最重大的变革之一就是 1.12 版本引擎的 Swarm 模式。它意味着什么呢？它意味着：如果你在运行 Docker 1.12时 ，你就可以原生创建一个 Swarm 集群。 
+2016 年 DockerCon 上展示的最重大的变革之一就是 1.12 版本引擎的 Swarm 模式。它意味着什么呢？它意味着：如果你在运行 Docker 1.12时 ，你就可以原生创建一个 Swarm 集群。
 
 ## 创建一个 swarm 集群
 用这样一条简单的命令：

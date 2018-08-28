@@ -3,7 +3,7 @@ layout: post
 title: linux LVM
 categories: linux
 description: linux LVM
-keywords: redhat，LVM,linux
+keywords: redhat LVM linux
 ---
 
 ## LVM——Logical Volume Manager

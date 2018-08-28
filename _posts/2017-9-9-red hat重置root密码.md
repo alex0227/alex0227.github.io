@@ -3,7 +3,7 @@ layout: post
 title: redhat重置root密码
 categories: redhat
 description: redhat重置root密码
-keywords: root，密码,linux
+keywords: root 密码 linux
 ---
 
 ## 重设root密码

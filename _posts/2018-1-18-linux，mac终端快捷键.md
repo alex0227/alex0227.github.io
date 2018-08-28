@@ -3,7 +3,7 @@
  title: linux/mac输入terminal命令的快捷键
  categories: terminal
  description: linux/mac输入terminal命令的快捷键
- keywords: 快捷键，技巧
+ keywords: 快捷键 技巧
 ---
 
 linux/mac输入terminal命令的快捷键

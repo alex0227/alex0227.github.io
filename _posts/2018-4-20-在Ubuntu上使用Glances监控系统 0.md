@@ -3,7 +3,7 @@ layout: post
 title: 在Ubuntu上使用Glances监控系统
 categories: 在Ubuntu上使用Glances监控系统
 description: 在Ubuntu上使用Glances监控系统
-keywords: Glances监控系统
+keywords: Glances 监控系统
 ---
 如何
 

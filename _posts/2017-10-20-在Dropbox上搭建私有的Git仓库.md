@@ -3,7 +3,7 @@ layout: post
 title: 在Dropbox上搭建私有的Git仓库的教程
 categories: 在Dropbox上搭建私有的Git仓库的教程
 description: 在Dropbox上搭建私有的Git仓库的教程
-keywords: Dropbox,Git
+keywords: Dropbox Git
 ---
 
 ### 一、在Dropbox的文件夹下创建远程repository文件夹(.git后缀)

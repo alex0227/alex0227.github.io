@@ -3,7 +3,7 @@ layout: post
 title: Ngxtop-Nginx日志实时分析
 categories: Ngxtop-Nginx日志实时分析
 description: Ngxtop-Nginx日志实时分析
-keywords: Ngxtop-Nginx 日志实时分析利 pip
+keywords: Ngxtop Nginx 日志 pip
 ---
 
 ngxtop实时解析nginx访问日志，并且将处理结果输出到终端，功能类似于系统命令top，所以这个软件起名ngxtop。有了ngxtop，你可以实时了解到当前nginx的访问状况，再也不需要tail日志看屏幕刷新，由于ngxtop是python编写，我们使用pip安装，本文先介绍pip的一些用法。

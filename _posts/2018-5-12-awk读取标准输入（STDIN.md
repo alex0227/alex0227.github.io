@@ -3,7 +3,7 @@ layout: post
 title: awk读取标准输入（STDIN)
 categories: awk读取标准输入（STDIN)
 description: awk读取标准输入（STDIN)
-keywords: awk,Linux,STDIN
+keywords: awk Linux STDIN
 ---
 
 在 awk 系列中，我们将会看到几个例子，你可以筛选其他命令的输出代替从一个文件读取输入作为 awk 的输入。我们首先从使用 dir 命令开始，它类似于 ls 命令。
