@@ -1,7 +1,7 @@
 ---
 layout: post
-title:
+title: linux ntp时间服务器配置
 categories:
-description:
+description: linux ntp时间服务器配置
 keywords:
 ---
